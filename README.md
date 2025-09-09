@@ -77,7 +77,7 @@ These become unbiased as $\Delta t\to 0$ and concentrate with more samples near 
   \mathrm{Var}[\hat \beta(x)] \approx \frac{2\beta^2(x)}{N_x},
   $$
 
-  so diffusion precision scales with $1/N_x$ and is leading-order independent of $\Delta t$.&#x20;
+  so diffusion precision scales with $1/N_x$ and is leading-order independent of $\Delta t$.
 
 
 ---
@@ -92,14 +92,11 @@ These become unbiased as $\Delta t\to 0$ and concentrate with more samples near 
 ## Limitations
 
 * **KM:** Needs enough visits per bin; drift estimation variance grows as $\Delta t\to 0$ unless $N_x$ scales; extremely low noise may obscure diffusion.
-* **FPE:** Sensitive to smoothing; can be ill-conditioned for state-dependent diffusion because $p,p',p''$ are nearly collinear and couple with $\beta',\beta''$; boundary layers (e.g., CIR near $x=0$) are problematic.&#x20;
+* **FPE:** Sensitive to smoothing; can be ill-conditioned for state-dependent diffusion because $p,p',p''$ are nearly collinear and couple with $\beta',\beta''$; boundary layers (e.g., CIR near $x=0$) are problematic.
 
 ---
 
 ## References
 
-Please cite the SGA\_SDE paper if you use this work. Full derivations, figures, and tables (including the OU/double-well/CIR studies and the statistical analysis of KM estimators) are in the PDF.&#x20;
+Please cite the SGA\_SDE paper if you use this work. Full derivations, figures, and tables (including the OU/double-well/CIR studies and the statistical analysis of KM estimators) are in the PDF.
 
----
-
-*Maintainers:* E S (@shaosixiong) and collaborators.
